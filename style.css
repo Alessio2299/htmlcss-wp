@@ -12,6 +12,10 @@ body{
   margin: auto;
   height: 100%;
 }
+
+.second-container{
+  width: 100%;
+}
 /* End Common */
 
 /* Start Header */
@@ -111,19 +115,17 @@ header{
   width: 50%;
   float: left;
   margin-top: 40px;
+  margin-right: 2.5%;
 }
 .medium-image img{
+  width: 100%;
   object-fit: cover;
-  height: 200px;
-}
-.image-center{
-  width: 50%;
   height: 200px;
 }
 .overlay-gray-middle{
   background-color: rgba(92, 92, 92, 0.144);
   position: absolute;
-  width: 50%;
+  width: 40%;
   height: 200px;
   border-radius: 10px;
   z-index: 1;
